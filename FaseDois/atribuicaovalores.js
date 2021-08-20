@@ -1,0 +1,20 @@
+integer quantidaDeVendedor;
+string endCompleto;
+float valorEtanol;
+Boolean estadoLampada;
+string cep;
+integer digitoElevador;
+data niverProf;
+float pesoPrato;
+integer totalBoi;
+data diaPascoa;
+integer totalLaranjas;
+char vogalMin; 
+string tituloLivro;
+float limiteCartao;
+data horaJogo;
+float alturaPredio;
+integer totalPaginasCaderno;
+string salaDeReuniao;
+integer questaoMult;
+

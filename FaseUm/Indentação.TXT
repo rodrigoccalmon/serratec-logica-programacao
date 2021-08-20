@@ -1,0 +1,1 @@
+Você pode usar o atalho SHIFT + ALT + F como falado, para identar todo o código ou em situações em que precisa apenas mover parte do código pra direita ou esquerda você pode selecionar parte do código que necessita alterar e usar TAB pra mover pra direita ou SHIFT + TAB pra mover pra esquerda

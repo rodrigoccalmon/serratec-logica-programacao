@@ -1,0 +1,1 @@
+Uma fonte monoespaçada, também chamada de passo-fixo ou não-proporcional, é uma fonte tipográfica cujas letras e caracteres ocupam o mesmo espaço horizontal. ... Isto também significa que as fontes monoespaçadas não precisam ser formatadas como fontes de largura variável, sendo, provavelmente, mais fácil de lidar.

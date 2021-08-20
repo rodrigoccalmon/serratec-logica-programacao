@@ -1,0 +1,272 @@
+16/08/21  fase0
+  
+https://historical-stallion-5f0.notion.site/L-gica-de-programa-o-9882321a8f254af0b6f63778b7d8ffc6
+
+F12 abre o console, o devtools.
+para que o console reconheça um texto precisa escrever o texto entre aspas. " ou '. ``. 3 formas de fazer. "texto" ___ 'texto'  __ `texto`
+
+2 tipos de linguagem. 
+marcação, gera interface, doumentos formatados, serve pra definir formato de definção, formato de tela. e a função basica é melhorar a exibição de informação. a mais clássica é o HTML. 
+
+de programação, possui estruturas de controle. vc controla o que o programa exibe. armaneza. manipular dados. mostre isso e esconda aquilo, repita isso tantas vezes, são situações especiais. possui sintaxe e semântica específicas. 
+
+___________
+
+17/08 fase1
+para facilitar a convenção, "texto1"; quebra linha. em vez de escrever "texto1"; "texto2";
+
+no prompt de comando, cmd digitar "echo olá, mundo!". ele vai falar embaixo o que você digitar olá mundo. é uma repetição.
+
+para acessar um arquivo js no terminal precisa de atenção ao ambiente em que está, precisa acessar exatamente a pasta correta. para acessar determinadas pasta usa o comando cd
+cd nomeda pasta
+cd .. volta duas pastas
+cd .barraContrariaLógicabarraContrária
+
+code runner faz o atalho do play para rodar os códigos. não precisa mais abrir o terminal e escrever o nome do arquivo, portanto. 
+
+____
+
+estrutura de um programa
+começa com uma marcação de inicio e fim. beggin e end. entre essas palavras existe um bloco de comandos. em js para marcação de inicio e fim de um programa são utilizados as chaves { bloco...blablabla }
+
+{
+comando1;
+comando2;
+.......
+comandoN;
+}
+____
+
+tipos de dados: como um computador diferencia os tipos de informações que ele quer lidar?
+tipos de dado é a forma que nosso programa vai entender a forma que nosso conteúdo vai ser armazenado.
+primeiro tipo de dados: números inteiros, 1 - 2 - 3 -4 239723897. chama INTEGER, em ingles para inteiro.
+
+números reais: ou valores com casas decimais.
+42.00, 36.789, 0.15 ....  ponto flutuante. float, real ou double. 
+
+caractere: uma única letra, digito, ou símbolo. 'a' 'A' '$' '# 1'. caractere sempre entre aspas. um caractere é apenas uma só, letra número ou simbolo. delimita por "a" - 'a' - ou `a`. entre aspas vai ser sempre um texto, mesmo que seja um número. "3", é um texto. texto não faz conta. 
+
+textos: sequência de letras - ou cadeia de caracteres. 
+"exemplo de cadeia de caracteres"
+aspas simples, dupla ou acento ``. 
+string. tradução de cadeia, corda. cadeia de caracteres.
+
+
+datas: 09/04/1991, date, datetime, timestamp.
+
+verdadeiro/falso: sim ou não, chamado de resposta lógica. é ou não é. zero OU um. sim OU nao. boolean. booleano. 
+
+o computador já sabe reconhecer os tipos de dados. precisamos entender por nós mesmos agora. 
+
+se não faz operação com número ex CPF CEP então ele não é número, é uma inscrição. então é um texto.  
+
+____________
+
+os três pilares da programação (nao copiei no caderno nada)
+atribuição, decisão e repetição.
+
+na ATRIBUIÇÃO tem o conceito de variável. é pra representar um espaço de memória que vai armazenar o seu valor. pode ser livremenete alterado. ele pode variar. 
+
+para definir uma variável precisamos de um IDENTIFICADOR
+a partir dai não fala o nome da variável, chama de identificador. 
+o identificador precisa de algumas regrinhas para seguir, deve sempre começar com uma letra. 
+
+toda VARIAVEL precisa ser declarada. vc diz ao programa: vou precisar armazenar um valor. var idade = 30; 
+
+para fazer um comentário no código: // .......... tudo que escrever o programa vai ignorar. é para programadores. 
+
+var idade = 30;
+var idade RECEBE 30;
+
+var nome = "Rodrigo";
+
+prof recomenda uma declaração de variável por linha.
+____
+
+tipos de atribuição de variáveis:
+LITERAL. var idade = 14; // é o menos comum pois é o programador que atribui e não o usuário do software. 
+mini calculadora:
+var resultado;
+resultado = 2 + 2; //expressão calculada + resultado armazenado. 
+
+//para casa. quer que estude como funciona a função math.random(); //gera um número quase aleatório. é um cálculo. 
+var magico = Math.random();
+console.log(magico); 
+variavel magico vai receber o conteudo da função math.random
+
+quero que mesma var magico recebea o conteudo que ela já tem e incliuir  * 6 + 1
+magico = magico * 6 + 1 
+0.1231283123
+quer cortar as casas decimais:
+magico = Math.trunc(magico); 
+
+
+Math.trunc(13.37); vai cortar o número, truncar, vai cortar e vai aparecer o número 13. 
+
+funcao 3 carac
+1 identificador. math.trunc ex 
+2 chamada da funcao. qr dizer chama o codigo da funcao que faz alguma coisa pra mim de acordo com o codigo que o prog fez. Math.trunc(1.3); 1.3 é o chamado entre ()
+3 retorno. o trab foi feito e devolve uma infnormalççao, entrega um resultado processado. o resultado do math.trunc(1.3); é 1. 
+_____
+
+fase 3 18/04
+introdução ao conceito 'repositório':
+github é o serviço. git é a tecnologia que a gente usa. 
+
+artefatos pode ser o olamundo.js, bolo.md, aula.js... são arquivos ou artefatos. é algo que precisa controlar e gerenciar e controlar suas modificações. 
+
+com scm pode ter controle, rasteio e revisão dos artefatos do projeto. 
+1o conceito é o repositório. é o servidor, o que deixamos na nuvem. para toda equipe ter acesso. dentro desse pc deixa uma pasta de arquivos, artefatos que tem o nome de repositório. é uma pasta raiz, base, inicial, onde coloca todo o projeto ali. cada projeto de software vai ter um repositório diferente. 
+
+no github pode escolher se o rep é publico ou privado. 
+
+para criar um rep nov clicar em new. e o nome: serratec-logica-programação
+public, add readme file, create repository. bingo, criado.
+
+git == tecnologia
+github == serviço em nuvem
+
+troca de mensagem == tecnologia
+whastapp telegram msn == serviço de troca de mensagem
+
+git é um sistema de controle de artefatos de código fonte. é livre, open source, aberto e gratuito. GRATUITO nao paga para usar diretamente, youtube por ex. CODIGO FONTE do utube não é livre. não pode acessar o código fonte. 
+
+controle de versionamento é muito usado. tem um codigo fonte e ele ta versionado. to usando esse termo. meu codigo ta versionado. quer dizer que ele tá no git. 
+
+### Instalando um cliente Git
+
+Tutorial para instalar o Git no computador local
+
+[https://dev.to/womakerscode/tutorial-instalando-configurando-e-inicializando-o-git-no-windows-57cj](https://dev.to/womakerscode/tutorial-instalando-configurando-e-inicializando-o-git-no-windows-57cj)
+
+Certifique-se de marcar a opção ‘gerenciador de autorização’.
+
+________________
+
+como fazer leitura de informações: nao vai fazer isso no dia dia, é para efeito didático. 
+leitura de informação do console é a partir da uma função. 
+
+prompt, tradução pronto. abre-se o prompt para uma pessoa. é uma função, e por isso sempre coloca ()
+sempre identifica uma função pelo par de ().
+prompt("Qual seu nome?"); isso vai aparecer na tela para pessoa. vai aparecer uma caixinha para o usuário digitar. prompt é uma forma de entrada de informações. 
+para pegar o resultado da função, o retorno e atribuir em uma variável.
+var nome; 
+nome = prompt("Digite um nome: "); 
+console.log(nome);
+vai aparecer o que o usuário digitou.  
+
+o prompt não funciona no vscode, so no console do navegador.. 
+
+**No VS Code**
+
+1. Configurar o Code Runner
+Arquivo → Preferências → Configurações
+Escrever “Code Runner” na pesquisa
+Clicar “Extensões” Run Code configuration
+Marcar “Run in terminal”
+precisa fazer uma vez só.
+
+no vscode precisa criar a função prompt para usar sempre que precisar. 
+
+2. No terminal, instalar o prompt
+`npm install prompt-sync` 
+vai precisar fazer toda vez que abrir uma pasta nova! 
+
+criar uma var chamada prompt para receber o require("prompt-sync")();
+var prompt = require("prompt-sync")(); //criar um prompt dentro do vscode. 
+var nome = prompt("Qual é o seu nome? ");
+
+console.log("Bom dia " + nome);
+
+***snnipets copiar os cod
+_________________
+
+introdução sobre operadores: 
+ja vimos os aritiméticos que é + - * / e %
+uniário é 1, espera apenas um operando e ele funciona. -5, +3
+
+binário == 2+2..
+
+operadores relacionais: decisão, é tomada a partir de respostas lógico, booleano. verdadeiro ou falso, true or false. 
+
+var pergunta = true; 
+pergunta = false; 
+pode atribuir na variavel ou valor verdadeiro ou valor falso. 
+
+quer que a pessoa digite alguma coisa, em vez do prog falar.
+quer fazer uma pergunta onde a resposta seja sim ou não
+você tem mais de 18 anos?
+sim ou não.
+a resposta é lógica. 
+
+operadores relacionais
+== != > >= <= <
+
+var maior = 2 > 3;
+console.log(maior);
+vai retornar false. 
+
+**comentar um codigo inteiro /* ............. */
+
+______
+
+constante. variavel eh algo que varia. constante não muda.
+
+constante de substituição.
+const ICMS = 18 / 100 (18%) 
+uma vez que definiu o valor ele não varia. não muda mais. 
+
+const ICMS = 0.18;
+var produto1 = 50.65 * ICMS; //const de substituição
+var produto2 = 35.69 * ICMS;
+
+tudo que é info do programador coloca como constante.
+usuário é variável. 
+
+prof coloca o identificador das const como maiuscula.
+const SENHA = '12345';
+
+CONST não usa para armazenamento de dados. é para colocar uma coisa que não muda no seu AMBIENTE de programação.
+
+exercicio: citar exemplos de informações que são constantes.
+exercícios: 1) entrada processamento e saida.
+subir no git pasta fase0, fase1, fase2 e assim por diante com todos os exercicios.
+
+_____
+
+operadores lógicos:
+se minha condição for atendida, então executa a instrução abaixo de você. declaração de decisão tbm é chamada de seletor. ou ele seleciona OU não a próxima instrução.
+
+no js o seletor (se) chama if
+if ()
+seletor if trabalha com booleano, ele espera um resultado true or false.
+var estarVacinado = true;
+if (estarVacinado) 
+console.log ("Parabéns, tome a segunda dose. ");
+
+
+
+LINGUAGEM DE BAIXO NÍVEL SÃO LINGUAGENS DEPENDENTES DOS PROCESSADORES.... 
+
+
+https://www.evernote.com/shard/s481/sh/3185ae9e-68a2-7052-8591-256159afb7f0/d5b57e8003f4059af0ab6f0cae573c4e 
+resumo
+
+var aleatorio = Math.trunc(Math.random());
+console.log(aleatorio);
+
+//Com essa função, teríamos o resultado sempre "0". por isso temos que acrescentar uma linha de código para conseguir números úteis.
+
+var aleatorio = Math.trunc(Math.random() * 10); 
+console.log(aleatorio);
+
+//Agora com essa função, desssa fomra, teremos números aleatórios entre 0 e 9 (porque os resultados nunca poderão chegar até 1 para serem multiplicados por 10.
+Acrescente o + 1 ao final caso queira elimar o 0 e chegar até o 10.
+
+OBS: aqui você também poderia utilizar a função Math.floor.
+
+____
+2021 401745 7309 atd
+
+
+prot oi ouvidoria: 2021 081 901 026 19/08 

@@ -1,0 +1,17 @@
+Ir até a cozinha;
+Pegar o pão;
+Colocar o pão em cima da mesa;
+Abrir a geladeira ;
+Pegar a manteiga;
+Colocar a manteiga em cima da mesa;
+Pegar queijo e presunto;
+Colocar queijo e presunto em cima da mesa;
+Abrir a gaveta de talher;
+Pegar a faca;
+Cortar o pão com a faca;
+Abrir a manteiga;
+Passar manteiga no pão;
+Colocar queijo e presunto no pão;
+Fechar o pão;
+Coma o pão;
+

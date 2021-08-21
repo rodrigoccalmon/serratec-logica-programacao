@@ -1,1 +1,0 @@
-", i,"] você ganhou um par de ingresso. ");
